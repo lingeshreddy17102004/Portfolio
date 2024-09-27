@@ -30,6 +30,7 @@ section.landing-page{
   display: flex;
   flex-direction: column;
   padding: 2rem;
+  padding-top: 1rem;
 }
 
 .hero-content h1{
