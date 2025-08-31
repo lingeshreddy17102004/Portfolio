@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "allowedRoles": ["anonymous"]
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "index.html"
+  },
+  "responseOverrides": {
+    "400": {
+      "rewrite": "/index.html"
+    }
+  },
+  "platform": {
+    "apiRuntime": "node:18"
+  },
+  "cors": {
+    "allowedOrigins": [
+      "https://formsubmit.co"
+    ]
+  }
+}
